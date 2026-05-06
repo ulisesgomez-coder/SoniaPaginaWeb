@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>SoniaPaginaWeb</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #74ebd5, #9face6);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 5px solid #2193b0;
+        }
+
+        h2 {
+            margin: 10px 0;
+        }
+
+        p {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: none;
+            background: #2193b0;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #17687a;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    SoniaPaginaWeb
+</header>
+
+<div class="container">
+    
+
+    <img src="https://via.placeholder.com/200" alt="Foto de Sonia">
+
+
+    <h2>Sonia Gómez Salcedo</h2>
+
+
+    <p>
+        Hola, mi nombre es Sonia Gómez Salcedo. Soy una persona apasionada por la tecnología,
+        el cafe, los animales sobre todo los perritos!!
+    </p>
+
+    <p>
+        Actualmente me encuentro desarrollando habilidades en programación web,
+        trabajando con HTML, CSS, JavaScript y otras tecnologías.
+    </p>
+
+    <!-- BOTÓN -->
+    <button onclick="saludar()">Saludar</button>
+
+</div>
+
+<script>
+    function saludar() {
+        alert("Hola, Soy Sonia Gómez Salcedo!!!");
+    }
+</script>
+
+</body>
+</html>
