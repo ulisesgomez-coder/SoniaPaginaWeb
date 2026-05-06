@@ -1,9 +1,8 @@
 <?php
-// Datos de la persona (puedes cambiarlos fácilmente)
 $nombre = "Sonia Gómez Salcedo";
-$edad = 28;
+$edad = 21;
 $ciudad = "Guadalajara";
-$profesion = "Ingeniera en Sistemas";
+$profesion = "Ingeniera en Ciencias Computacionales";
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -16,14 +15,14 @@ $profesion = "Ingeniera en Sistemas";
         body {
             font-family: Arial, sans-serif;
             background: linear-gradient(135deg, #6dd5ed, #2193b0);
-            margin: 0;
-            padding: 0;
+            margin: 1;
+            padding: 1;
         }
 
         .container {
             width: 350px;
             margin: 80px auto;
-            background: #fff;
+            background: purple;
             border-radius: 15px;
             padding: 20px;
             text-align: center;
