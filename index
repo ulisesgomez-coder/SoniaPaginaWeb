@@ -1,0 +1,76 @@
+<?php
+// Datos de la persona (puedes cambiarlos fácilmente)
+$nombre = "Sonia Gómez Salcedo";
+$edad = 28;
+$ciudad = "Guadalajara";
+$profesion = "Ingeniera en Sistemas";
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil de Persona</title>
+
+    <style>
+        /* ===== CSS ===== */
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #6dd5ed, #2193b0);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 350px;
+            margin: 80px auto;
+            background: #fff;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+            font-size: 16px;
+        }
+
+        button {
+            background: #2193b0;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #17687a;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1><?php echo $nombre; ?></h1>
+    <p><strong>Edad:</strong> <?php echo $edad; ?></p>
+    <p><strong>Ciudad:</strong> <?php echo $ciudad; ?></p>
+    <p><strong>Profesión:</strong> <?php echo $profesion; ?></p>
+
+    <button onclick="saludar()">Saludar</button>
+</div>
+
+<script>
+    // ===== JavaScript =====
+    function saludar() {
+        alert("Hola, soy Sonia Gómez Salcedo 👋");
+    }
+</script>
+
+</body>
+</html>
